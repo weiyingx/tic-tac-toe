@@ -14,11 +14,10 @@ We will be making a Tic Tac Toe game using all of these concepts.
 ##Getting Started
 
 * Fork and clone this repository.
-* Run `npm install` to install dependencies.
-  * `npm start` - start BrowserSync server
-  * `npm run lint:css` - lint CSS
-  * `npm run lint:js` - lint JS
-* Before you even start working with JavaScript, construct the gameboard. The gameboard page should include the 3x3 grid (of divs), and at minimum a reset button. Using `id` and `class` on clickable elements will help you wire this up in JavaScript afterwards.
+  * Click on the 'Fork' button on the top right of this page (this will redirect you to your github account)
+  * In terminal, `cd` to the folder where you want to store this repo, and run `git clone https://github.com/YOUR_USER_ACCOUNT/tic-tac-toe`
+  * In terminal, run `cd tic-tac-toe`
+* Before you even start working with JavaScript, construct the gameboard using HTML and CSS. The gameboard page should include the 3x3 grid (of divs), and at minimum a reset button. Using `id` and `class` on clickable elements will help you wire this up in JavaScript afterwards.
 * The JavaScript portion will be next
   * Select elements and attach functions via event listeners
   * You will also need a variable to keep track of moves. This will be used to indicate whether or not to draw an `X` or an `O`
