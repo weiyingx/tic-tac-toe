@@ -11,6 +11,11 @@ h1 {
   margin-bottom: 20px;
 }
 
+h2 {
+  color: rgb(83,91,255);
+  text-align: center;
+}
+
 button {
   margin-top: 20px;
   font-size: 14px;
@@ -22,13 +27,15 @@ button {
 .gameboard {
   height: 450px;
   width: 450px;
-  border: 1px solid black;
   margin: auto;
 }
 
 .spaces {
   height: 148px;
   width:148px;
-  border: 1px solid green;
+  border: 1px solid black;
   float: left;
+  color: rgb(83,91,255);
+  font-size: 110px;
+  font-weight: bolder;
 }
